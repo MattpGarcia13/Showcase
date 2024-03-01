@@ -23,7 +23,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <NavLink to="/" className="navbar-logo">
-                        Showcase <ion-icon name="diamond-outline" />
+                        Showcase <ion-icon name="diamond-outline"  />
                     </NavLink>
                     <div className="menu-icon" onClick={handleClick}>
                         <ion-icon name={click ? "flash-outline" : "flash-off-outline"} />
