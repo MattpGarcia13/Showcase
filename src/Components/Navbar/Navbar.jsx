@@ -1,5 +1,5 @@
 import './Navbar.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from '../Button/Button';
 
@@ -17,13 +17,17 @@ function Navbar() {
         }
     };
 
+    useEffect(() => {
+        showButton()
+    }, []);
+
     window.addEventListener('resize', showButton);
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <NavLink to="/" className="navbar-logo">
+                    <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         Showcase <ion-icon name="diamond-outline"  />
                     </NavLink>
                     <div className="menu-icon" onClick={handleClick}>
