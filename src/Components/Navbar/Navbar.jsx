@@ -24,8 +24,18 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to='/planningHunt' className='nav-links' onClick={closeMobileMenu}>
+                                Plan a Hunt!
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to='/aboutUs' className='nav-links' onClick={closeMobileMenu}>
                                 About Us
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                                Sign Up
                             </NavLink>
                         </li>
                     </ul>
