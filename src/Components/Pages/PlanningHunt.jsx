@@ -1,11 +1,9 @@
-import React from 'react';
-import '../App/App.css';
-import { useEffect, useState } from 'react';
-import HeroSection from '../HeroSection/HeroSection';
+import React from 'react'
+import Cards from '../Cards/Cards'
+import {useEffect, useState} from 'react'
 
-const Home = () => {
-
-  const [dinos, setDinos] = useState([])
+function PlanningHunt() {
+    const [dinos, setDinos] = useState([])
   useEffect(() => {
     fetch('http://localhost:3001/dino')
       .then(response => response.json())
@@ -18,9 +16,9 @@ const Home = () => {
   console.log(dinos)
   return (
     <div>
-      <HeroSection />
+      <Cards dinos = {dinos} />
     </div>
   );
 }
 
-export default Home;
+export default PlanningHunt
