@@ -1,22 +1,24 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 
-function CardItem(props) {
+function CardItem({name, description, era, diet}) {
     return (
       <>
         <li className='cards_item'>
-          <NavLink className='cards_item_link' to={props.path}>
-            <figure className='cards_item_pic-wrap' data-category={props.label}>
+          <div className='cards_item_link'>
+            <figure className='cards_item_pic-wrap'>
               <img
                 className='cards_item_img'
                 alt='Creature Image'
-                src={props.src}
+                // src={img}
               />
             </figure>
             <div className='cards_item_info'>
-              <h5 className='cards_item_text'>{props.text}</h5>
+              <h5 className='cards_item_text'>Name: {name}</h5>
+              <h5 className='cards_item_text'>Diet: {diet}</h5>
+              <h5 className='cards_item_text'>Era: {era}</h5>
+              <h5 className='cards_item_text'>Description: {description}</h5>
             </div>
-          </NavLink>
+          </div>
         </li>
       </>
     );
