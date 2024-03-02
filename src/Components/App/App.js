@@ -1,27 +1,23 @@
 import './App.css';
-import { useEffect } from 'react'
+
+import Navbar from '../Navbar/Navbar'
+import { Routes, Route } from 'react-router-dom';
+import Home from '../Pages/Home'
+import PlanningHunt from '../Pages/PlanningHunt';
 
 function App() {
-
-  useEffect(() => {
-    fetch('http://localhost:3001/dino')
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.log(error))
-
-
-
-  }, [])
-
-
-
-
-
   return (
-    <div className="App">
-
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/planningHunt' element={<PlanningHunt />} /> 
+      </Routes>
     </div>
+
+
   );
+
 }
 
 export default App;
