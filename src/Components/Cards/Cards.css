@@ -22,14 +22,18 @@ h1 {
 }
 
 .cards_items {
-  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
 }
+
 
 .cards_item {
   display: flex;
-  flex: 1;
+  flex: 0 1 calc(30% - 1rem);
   margin: 0 1rem;
   border-radius: 10px;
+  max-width: 45%;
 }
 
 .cards_item_link {
@@ -117,6 +121,21 @@ h1 {
 
   &:hover {
     background-color: #1769aa;
+  }
+}
+
+.select-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #45a049;
   }
 }
 
