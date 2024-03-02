@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CardItem({name, description, era, diet}) {
+function CardItem({name, description, era, diet, img}) {
     return (
       <>
         <li className='cards_item'>
@@ -9,7 +9,7 @@ function CardItem({name, description, era, diet}) {
               <img
                 className='cards_item_img'
                 alt='Creature Image'
-                // src={img}
+                src={img}
               />
             </figure>
             <div className='cards_item_info'>

@@ -1,5 +1,5 @@
 import './App.css';
-
+import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import { Routes, Route } from 'react-router-dom';
 import Home from '../Pages/Home'
@@ -13,6 +13,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/planningHunt' element={<PlanningHunt />} /> 
       </Routes>
+      <Footer />
     </div>
 
 
