@@ -1,3 +1,4 @@
+import './AboutUs.css';
 import React from 'react';
 
 const AboutUs = () => {
@@ -15,7 +16,7 @@ const AboutUs = () => {
 
             <h2>Discover the Dinosaurs</h2>
             <p>
-                Join us as we delve into the rich history of dinosaurs, from the ferocious Tyrannosaurus Rex to the majestic Triceratops. Learn interesting facts, explore their habitats, and unlock the mysteries of these prehistoric giants.
+                Join me as we delve into the rich history of dinosaurs, from the ferocious Tyrannosaurus Rex to the majestic Triceratops. Learn interesting facts, explore their habitats, and unlock the mysteries of these prehistoric giants.
             </p>
 
             <h2>Choose Your Dino Hunt</h2>
@@ -25,12 +26,12 @@ const AboutUs = () => {
 
             <h2>The Team Behind Showcase</h2>
             <p>
-                Meet the minds behind the magic – our dedicated team at Showcase. It's just me and I'm an enthusiast, a somewhat-trained paleontologist and a game developer. I'm working to create an immersive and educational experience like never before.
+                Meet the minds behind the magic! It's just me and I'm an enthusiast, a somewhat-trained paleontologist and a software developer. I'm working to create an immersive and educational experience like never before.
             </p>
 
             <h2>Contact Matt and the Team(also just me)</h2>
             <p>
-                Have questions, suggestions, or just want to say hello? Feel free to reach out to me, Matt at [matt@garcia.dev]. I can't wait to hear from you!
+                Have questions, suggestions, or just want to say hello? Feel free to reach out to me, Matt, at [matt@garcia.dev]. I can't wait to hear from you!
             </p>
         </div>
     );
