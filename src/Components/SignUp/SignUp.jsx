@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './SignUp.css';
 
 const SignUp = () => {
@@ -18,7 +19,6 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Additional logic can be added here, such as sending data to a server
     setIsSubmitted(true);
   };
 
@@ -27,7 +27,12 @@ const SignUp = () => {
       <h1>{isSubmitted ? 'Thank You for Signing Up!' : 'Sign Up for an Adventure!'}</h1>
       
       {isSubmitted ? (
-        <p>I will reach out to you shortly.</p>
+        <div>
+          <p>I will reach out to you shortly.</p>
+          <NavLink to="/">
+            <button>Go to Home</button>
+          </NavLink>
+        </div>
       ) : (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
