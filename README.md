@@ -1,47 +1,59 @@
 ## About The "Showcase" Project
+This Project was intended to show off what I learned about Reactjs (as well as async js, router and cypress) over the course of 5 weeks. I chose to go with a unique theme I thought would stand out, which is hunting dinosaurs. I also had to create my own API for this project, a link to that can be found below. 
 
+### Wins:
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+* Learning effective Routing
+* Much more experience in Bug Fixing
+* Stylizing
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Challenges:
 
-
+* Learning Cypress
+* 2 very persistant bugs (Fixed)
+* Navigating through & refactoring a large amount of code
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* Reactjs
+* CSS
+* HTML
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
+### Installation (backend)
 
 1. Get my dino API at https://github.com/MattpGarcia13/dino-backend
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git@github.com:MattpGarcia13/dino-backend.git
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. cd into `dino-backend` and run 
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   node index.js
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Installation (frontend)
+
+1. Get to my Showcase repo at https://github.com/MattpGarcia13/Showcase
+2. Clone the repo
+   ```sh
+   git@github.com:MattpGarcia13/Showcase.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. cd into `Showcase` and run 
+   ```js
+   npm start
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -59,18 +71,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Initial Setup
-- [ ] Create Home page
-- [ ] Create API
-- [ ] Setup GET
-- [ ] Create "Plan a Hunt" page
-- [ ] Stylize Home & Hunt pages
-- [ ] Create Cards for API data
-- [ ] Create Footer (inspired by Nike)
-- [ ] Create functionality allowing users to hunt a dinosaur of their choosing
-- [ ] Fill out "About Us" and "Sign Up" sections
-- [ ] Stylize everything to this point
-- [ ] Create testing with Cypress
+- [x] Initial Setup
+- [x] Create Home page
+- [x] Create API
+- [x] Setup GET
+- [x] Create "Plan a Hunt" page
+- [x] Stylize Home & Hunt pages
+- [x] Create Cards for API data
+- [x] Create Footer (inspired by Nike)
+- [x] Create functionality allowing users to hunt a dinosaur of their choosing
+- [x] Fill out "About Us" and "Sign Up" sections
+- [x] Stylize everything to this point
+- [x] Create testing with Cypress
     
 
 
