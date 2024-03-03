@@ -1,14 +1,7 @@
 ## About The "Showcase" Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -16,15 +9,11 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Javascript][Javascript.js]][Javascript-url]
-* CSS
+* [![Vue][Vue.js]][Vue-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Getting Started
 
@@ -41,11 +30,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get my dino API at https://github.com/MattpGarcia13/dino-backend
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/github_username/repo_name.git
    ```
 3. Install NPM packages
    ```sh
@@ -59,10 +47,52 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## Roadmap
+
+- [ ] Initial Setup
+- [ ] Create Home page
+- [ ] Create API
+- [ ] Setup GET
+- [ ] Create "Plan a Hunt" page
+- [ ] Stylize Home & Hunt pages
+- [ ] Create Cards for API data
+- [ ] Create Footer (inspired by Nike)
+- [ ] Create functionality allowing users to hunt a dinosaur of their choosing
+- [ ] Fill out "About Us" and "Sign Up" sections
+- [ ] Stylize everything to this point
+- [ ] Create testing with Cypress
+    
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contact
+
+Matt Garcia - matt@garcia.dev
+
+Project Link: https://github.com/MattpGarcia13/Showcase
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+## Acknowledgments
+
+* Eric Batiste - Code Reviewer
+* Kayla Gordon - Project Manager
+* Drake Bott - Advisor
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
