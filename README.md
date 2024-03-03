@@ -1,5 +1,7 @@
 ## About The "Showcase" Project
-This Project was intended to show off what I learned about Reactjs (as well as async js, router and cypress) over the course of 5 weeks. I chose to go with a unique theme I thought would stand out, which is hunting dinosaurs. I also had to create my own API for this project, a link to that can be found below. 
+This Project was intended to show off what I learned about Reactjs (as well as async js, router and cypress) over the course of 5 weeks. I chose to go with a unique theme I thought would stand out, which is hunting dinosaurs. I also had to create my own API for this project, a link to that can be found below.
+
+[Here](https://showcase-dino-d99a131ccd1e.herokuapp.com/) is a link to the deployed project. Be aware the backend takes time to boot up if it has not been used recently, after the initial wait any other users will have the API data load instantly.
 
 ### Wins:
 
