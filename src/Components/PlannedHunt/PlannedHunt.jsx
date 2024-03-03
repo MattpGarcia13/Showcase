@@ -37,14 +37,14 @@ const PlannedHunt = () => {
       <h1>Planned Hunt</h1>
       <ul>
         {dinos.map((dino, index) => (
-          <li key={index}>
+          <div className='plannedhunt-section' key={index}>
+            <img src={dino.img} alt={dino.name} />
             <h2>{dino.name}</h2>
-            <h1>Danger level: {dino.dangerLevel}</h1>
             <p>Description: {dino.description}</p>
             <p>Era: {dino.era}</p>
             <p>Diet: {dino.diet}</p>
-            <img src={dino.img} alt={dino.name} />
-          </li>
+            <h1>Danger level: {dino.dangerLevel}</h1>
+          </div>
         ))}
       </ul>
     </div>
