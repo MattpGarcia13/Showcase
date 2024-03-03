@@ -16,7 +16,7 @@ const HeroSection = () => {
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        <button onClick={handleClick} className='btn btn-primary btn-secondary btn-meduim' buttonStyle='btn-secondary' buttonSize='btn-large'>GET STARTED</button>
+        <button onClick={handleClick} className='btn btn-primary btn-secondary btn-meduim' >GET STARTED</button>
       </div>
     </div>
   );

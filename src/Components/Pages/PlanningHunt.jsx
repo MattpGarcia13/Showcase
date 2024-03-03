@@ -1,24 +1,29 @@
-import React from 'react'
-import Cards from '../Cards/Cards'
-import {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react';
+import Cards from '../Cards/Cards';
 
 function PlanningHunt() {
-    const [dinos, setDinos] = useState([])
+  const [dinos, setDinos] = useState([]);
+
   useEffect(() => {
-    fetch('http://localhost:3001/dino')
-      .then(response => response.json())
-      .then(data => setDinos(data.dinos))
-      .catch(error => console.log(error))
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://dino-backend.onrender.com/dino');
+        const data = await response.json();
+        setDinos(data.dinos);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
 
-
-  }, [])
-  console.log(dinos)
   return (
     <div>
-      <Cards dinos = {dinos} />
+      <Cards dinos={dinos} />
     </div>
   );
 }
 
-export default PlanningHunt
+export default PlanningHunt;

@@ -40,7 +40,7 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/planningHunt' className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to='/planningHunt' id='planningHuntBtn' className='nav-links' onClick={closeMobileMenu}>
                                 Plan a Hunt!
                             </NavLink>
                         </li>

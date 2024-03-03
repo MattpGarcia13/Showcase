@@ -25,16 +25,16 @@ function Footer() {
                     </form>
                 </div>
             </section>
-            <div class='footer-links'>
+            <div className='footer-links'>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>About Us</h2>
                         <NavLink to='/sign-up'>How it works</NavLink>
                         <NavLink to='/'>Testimonials</NavLink>
                         <NavLink to='/'>Investors</NavLink>
                         <NavLink to='/'>Terms of Service</NavLink>
                     </div>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>Contact Us</h2>
                         <NavLink to='/'>Contact</NavLink>
                         <NavLink to='/'>Support</NavLink>
@@ -43,14 +43,14 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>Videos</h2>
                         <NavLink to='/'>Submit Video</NavLink>
                         <NavLink to='/'>Ambassadors</NavLink>
                         <NavLink to='/'>Agency</NavLink>
                         <NavLink to='/'>Influencer</NavLink>
                     </div>
-                    <div class='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h2>Social Media</h2>
                         <NavLink to='/'>Instagram</NavLink>
                         <NavLink to='/'>Facebook</NavLink>
@@ -59,18 +59,18 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <div class='footer-logo'>
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    <div className='footer-logo'>
                         <NavLink to='/' className='social-logo'>
                             Showcase
                             <ion-icon name="diamond-outline" />
                         </NavLink>
                     </div>
-                    <small class='website-rights'>Matt's "Showcase" © 2024</small>
-                    <div class='social-icons'>
+                    <small className='website-rights'>Matt's "Showcase" © 2024</small>
+                    <div className='social-icons'>
                         <NavLink
-                            class='social-icon-link facebook'
+                            className='social-icon-link facebook'
                             to='/'
                             target='_blank'
                             aria-label='Facebook'
@@ -78,7 +78,7 @@ function Footer() {
                             <ion-icon name="logo-facebook" />
                         </NavLink>
                         <NavLink
-                            class='social-icon-link instagram'
+                            className='social-icon-link instagram'
                             to='/'
                             target='_blank'
                             aria-label='Instagram'
@@ -86,7 +86,7 @@ function Footer() {
                             <ion-icon name="logo-instagram" />
                         </NavLink>
                         <NavLink
-                            class='social-icon-link youtube'
+                            className='social-icon-link youtube'
                             to='/'
                             target='_blank'
                             aria-label='Youtube'
@@ -94,7 +94,7 @@ function Footer() {
                             <ion-icon name="logo-youtube" />
                         </NavLink>
                         <NavLink
-                            class='social-icon-link twitter'
+                            className='social-icon-link twitter'
                             to='/'
                             target='_blank'
                             aria-label='Twitter'
@@ -102,7 +102,7 @@ function Footer() {
                             <ion-icon name="logo-twitter" />
                         </NavLink>
                         <NavLink
-                            class='social-icon-link twitter'
+                            className='social-icon-link twitter'
                             to='/'
                             target='_blank'
                             aria-label='LinkedIn'
