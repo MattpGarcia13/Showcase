@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Cards.css';
 import CardItem from '../Cards/CardItem';
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 function Cards({ dinos }) {
   const [filteredDinos, setFilteredDinos] = useState([]);
@@ -26,10 +27,11 @@ function Cards({ dinos }) {
     setFilteredDinos([randomDino]);
   }
 
-  const dinoCards = filteredDinos.map((dino) => {
+  const dinoCards = filteredDinos.map((dino, index) => {
     return (
       <CardItem
         key={dino.name}
+        id={index}
         description={dino.description}
         diet={dino.diet}
         era={dino.era}
@@ -49,7 +51,7 @@ function Cards({ dinos }) {
         <button onClick={sortByCarnivores} className='sort-cards'>
           Sort by Carnivores!
         </button>
-        <button onClick={sortByRandom} className='sort-cards'>
+        <button id='random-button' onClick={sortByRandom} className='sort-cards'>
           Random!
         </button>
       </div>
@@ -61,4 +63,20 @@ function Cards({ dinos }) {
   );
 }
 
+
+Cards.propTypes = {
+  dinos: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    diet: PropTypes.string.isRequired,
+    era: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    dangerLevel: PropTypes.number.isRequired,
+  })).isRequired,
+};
+
+
+
 export default Cards;
+
+

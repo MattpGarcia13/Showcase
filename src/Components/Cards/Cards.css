@@ -75,7 +75,7 @@ h1 {
   padding: 20px 30px 30px;
 }
 
-.cards_item_text {
+.cards_item_era, .cards_item_name, .cards_item_description, .cards_item_diet {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
