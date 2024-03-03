@@ -58,15 +58,20 @@ This Project was intended to show off what I learned about Reactjs (as well as a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Testing
 
-## Usage
+1. In your console type "npm run cy"
+2. Enjoy
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Screenshots
+
+![scrnshotsite1](https://github.com/MattpGarcia13/Showcase/assets/145981239/896c8385-4880-4b20-a090-c809a210b0b6)
+
+![scrnshotsite2](https://github.com/MattpGarcia13/Showcase/assets/145981239/dc96003f-701e-4e00-ba78-9fdec30cd426)
 
 
 ## Roadmap
